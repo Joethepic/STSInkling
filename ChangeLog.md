@@ -4,7 +4,11 @@
 - 2 unique power effects
 - 1 potion(unique to inkling only)
 # v0.1.1
+### Other
 - starter deck now contains burst bomb, not splat bomb
-- Added exhaust to the description of gather
+### Cards
 - Add gains ink tag to gather.
+- Added exhaust to the description of gather
 - fixed splat bomb description not being effected by powers
+- Added Unload
+- Added Converting
