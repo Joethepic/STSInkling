@@ -130,5 +130,15 @@
   {
     "NAME": "Preparation",
     "DESCRIPTION": "Draw X cards. Gain X [E] + 1. NL Exhaust."
+  },
+  "${modID}:converting":
+  {
+    "NAME": "Converting",
+    "DESCRIPTION": "Gain !M! ${modID}:Ink."
+  },
+  "${modID}:unload":
+  {
+    "NAME": "Unload",
+    "DESCRIPTION": "Deals !D! damage on a random enemy ${modID}:Ink times. Spends all ${modID}:Ink."
   }
 }
