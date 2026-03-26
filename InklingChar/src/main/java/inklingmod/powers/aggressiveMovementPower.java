@@ -18,7 +18,7 @@ import inklingmod.Tags;
 import static inklingmod.inklingMod.makeID;
 
 public class aggressiveMovementPower extends BasePower {
-    public static final String POWER_ID = makeID("evasiveMovement");
+    public static final String POWER_ID = makeID("aggressiveMovement");
     private static final PowerType TYPE = PowerType.BUFF;
     private static final boolean TURN_BASED = false;
     //The only thing TURN_BASED controls is the color of the number on the power icon.
@@ -44,6 +44,6 @@ public class aggressiveMovementPower extends BasePower {
         }
     }
     public void updateDescription() {
-        this.description = "Gives 2 block whenever you use or gain ink";
+        this.description = "Does 2 damage whenever you use or gain ink";
     }
 }

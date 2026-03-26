@@ -124,7 +124,7 @@
   "${modID}:gather":
   {
     "NAME": "Gather",
-    "DESCRIPTION": "Gain X + 1 [E]. Gain X ${modID}:Ink."
+    "DESCRIPTION": "Gain X + 1 [E]. Gain X ${modID}:Ink. Exhaust."
   },
   "${modID}:preparation":
   {

@@ -153,7 +153,7 @@ public class InklingCharacter extends CustomPlayer {
         retVal.add(Defend.ID);
         retVal.add(Defend.ID);
         retVal.add(Refill.ID);
-        retVal.add(SplatBomb.ID);
+        retVal.add(burstBomb.ID);
         return retVal;
     }
 

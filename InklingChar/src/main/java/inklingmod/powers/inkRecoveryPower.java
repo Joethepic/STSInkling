@@ -7,7 +7,7 @@ import com.megacrit.cardcrawl.powers.AbstractPower;
 import static inklingmod.inklingMod.makeID;
 
 public class inkRecoveryPower extends BasePower {
-    public static final String POWER_ID = makeID("subRecoveryPower");
+    public static final String POWER_ID = makeID("inkRecoveryPower");
     private static final AbstractPower.PowerType TYPE = AbstractPower.PowerType.BUFF;
     private static final boolean TURN_BASED = false;
     //The only thing TURN_BASED controls is the color of the number on the power icon.

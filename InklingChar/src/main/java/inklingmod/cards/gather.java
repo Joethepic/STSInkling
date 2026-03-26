@@ -6,6 +6,7 @@ import com.megacrit.cardcrawl.actions.common.GainEnergyAction;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import com.megacrit.cardcrawl.vfx.combat.GainPowerEffect;
+import inklingmod.Tags;
 import inklingmod.character.InklingCharacter;
 import inklingmod.powers.inkPower;
 import inklingmod.util.CardStats;
@@ -28,6 +29,7 @@ public class gather extends BaseCard {
         super(ID, info); //Pass the required information to the BaseCard constructor.
         baseMagicNumber = magicNumber = 0;
         exhaust = true;
+        tags.add(Tags.GAINS_INK);
     }
 
     @Override
