@@ -24,7 +24,7 @@
   "${modID}:SplatBomb":
   {
     "NAME": "Splat Bomb",
-    "DESCRIPTION": "Deal 15 damage. Spend !M! ${modID}:Ink."
+    "DESCRIPTION": "Deal !D! damage. Spend !M! ${modID}:Ink."
   },
   "${modID}:Inkzooka":
   {
