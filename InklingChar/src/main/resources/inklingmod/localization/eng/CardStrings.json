@@ -1,0 +1,134 @@
+{
+  "${modID}:ExampleCard": {
+    "NAME": "Name",
+    "DESCRIPTION": "Description. NL Second line.",
+    "UPGRADE_DESCRIPTION": "This will automatically be used if the card is upgraded. Remove it if unneeded.",
+    "EXTENDED_DESCRIPTION": [
+      "You can put more text in here.",
+      "If you need to use it for stuff.",
+      "Blizzard is a good example for this."
+    ]
+  },
+  "${modID}:Strike": {
+    "NAME": "Strike",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "${modID}:Defend": {
+    "NAME": "Defend",
+    "DESCRIPTION": "Gain !B! Block"
+  },
+  "${modID}:Refill": {
+    "NAME": "Refill",
+    "DESCRIPTION": "Gain !M! ${modID}:Ink"
+  },
+  "${modID}:SplatBomb":
+  {
+    "NAME": "Splat Bomb",
+    "DESCRIPTION": "Deal 15 damage. Spend !M! ${modID}:Ink."
+  },
+  "${modID}:Inkzooka":
+  {
+    "NAME": "Inkzooka",
+    "DESCRIPTION": "Deal !D! damage."
+  },
+  "${modID}:killerWail":
+  {
+    "NAME": "Killer Wail",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies."
+  },
+  "${modID}:stickIntoInk":
+  {
+    "NAME": "Stick into Ink",
+    "DESCRIPTION": "Apply Slow. Spend !M! ${modID}:Ink. Exhaust"
+  },
+  "${modID}:burstBomb":
+  {
+    "NAME": "Burst Bomb",
+    "DESCRIPTION": "Deal !D! damage. Spend !M! ${modID}:Ink"
+  },
+  "${modID}:booyahBomb":
+  {
+    "NAME": "Booyah Bomb",
+    "DESCRIPTION": "Deal damage equal to ${modID}:Ink"
+  },
+  "${modID}:quickSwim":
+  {
+    "NAME": "Quick Swim",
+    "DESCRIPTION": "Gain !B! Block. Gain !M! ${modID}:Ink"
+  },
+  "${modID}:Search":
+  {
+    "NAME": "Search",
+    "DESCRIPTION": "Draw !M! Cards"
+  },
+  "${modID}:splatRoller":
+  {
+    "NAME": "Splat Roller",
+    "DESCRIPTION": "Deal !D! to only the front enemy. Spend 1 ${modID}:Ink"
+  },
+  "${modID}:splashWall":
+  {
+    "NAME": "Splash Wall",
+    "DESCRIPTION": "Gain !B! Block. Block is not removed at the start of your next turn"
+  },
+  "${modID}:mainInkRecovery":
+  {
+    "NAME": "Main ink recovery",
+    "DESCRIPTION": "Gain 2 ${modID}:Ink at the start of your next turn"
+  },
+  "${modID}:evasiveMovement":
+  {
+    "NAME": "Evasive Movement",
+    "DESCRIPTION": "Whenever you play card that either adds or removes ${modID}:Ink, gain 2 Block"
+  },
+  "${modID}:aggressiveMovement":
+  {
+    "NAME": "Aggressive Movement",
+    "DESCRIPTION": "Whenever you play card that either adds or removes ${modID}:Ink, deal 2 damage to all enemies"
+  },
+  "${modID}:flowState":
+  {
+    "NAME": "Flow State",
+    "DESCRIPTION": "Deal !D! Damage. Increase all damage Flow State cards by 2 this combat"
+  },
+  "${modID}:runSpeedUp":
+  {
+    "NAME": "Run Speed Up",
+    "DESCRIPTION": "Gain !B! Block and draw a card."
+  },
+  "${modID}:coldBlooded":
+  {
+    "NAME": "Cold Blooded",
+    "DESCRIPTION": "Deal !D! damage and draw a card."
+  },
+  "${modID}:damageUp":
+  {
+    "NAME": "Damage Up",
+    "DESCRIPTION": "Gain !M! Strength."
+  },
+  "${modID}:defenseUp":
+  {
+    "NAME": "Defense Up",
+    "DESCRIPTION": "Gain !M! Dexterity."
+  },
+  "${modID}:splashDown":
+  {
+    "NAME": "Splashdown",
+    "DESCRIPTION": "Deal !D! damage. Gain !M! ${modID}:Ink."
+  },
+  "${modID}:superJump":
+  {
+    "NAME": "Super Jump",
+    "DESCRIPTION": "Gain !B! Block. Gain !M! ${modID}:Ink."
+  },
+  "${modID}:gather":
+  {
+    "NAME": "Gather",
+    "DESCRIPTION": "Gain X + 1 [E]. Gain X ${modID}:Ink."
+  },
+  "${modID}:preparation":
+  {
+    "NAME": "Preparation",
+    "DESCRIPTION": "Draw X cards. Gain X [E] + 1. NL Exhaust."
+  }
+}

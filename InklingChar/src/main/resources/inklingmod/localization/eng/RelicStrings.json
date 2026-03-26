@@ -1,0 +1,65 @@
+{
+  "${modID}:RelicID": {
+    "NAME": "Good Relic",
+    "FLAVOR": "Flavor text displayed in detailed relic view.",
+    "DESCRIPTIONS": [
+      "Gain [E] at the start of your turn. [E] is an energy icon."
+    ]
+  },
+  "${modID}:inkTank": {
+    "NAME": "Ink Tank",
+    "FLAVOR": "You never go anywhere without your trusty ink tank",
+    "DESCRIPTIONS": [
+      "Gain 5 #y${modID}:Ink at the start of combat"
+    ]
+  },
+  "${modID}:megaInkTank": {
+    "NAME": "Mega Ink Tank",
+    "FLAVOR": "You never go anywhere without your trusty ink tank",
+    "DESCRIPTIONS": [
+      "Gain 7 #y${modID}:Ink at the start of combat"
+    ]
+  },
+  "${modID}:inkMotivator": {
+    "NAME": "Ink Motivator",
+    "FLAVOR": "You have discovered how to get more Energy when using your ink frequently",
+    "DESCRIPTIONS": [
+      "Gives 1 [E] when using 3 or more cards in one turn that use #y${modID}:Ink."
+    ]
+  },
+  "${modID}:refillSpecialist": {
+    "NAME": "Refill Specialist",
+    "FLAVOR": "You have discovered how to get more Energy when using your ink frequently",
+    "DESCRIPTIONS": [
+      "Gives 1 ${modID}:Ink whenever using a card that gains ${modID}:Ink."
+    ]
+  },
+  "${modID}:inkSaver": {
+    "NAME": "Ink Saver",
+    "FLAVOR": "You have discovered how to get more Energy when using your ink frequently",
+    "DESCRIPTIONS": [
+      "Gives 1 ${modID}:Ink whenever using a card that uses ${modID}:Ink."
+    ]
+  },
+  "${modID}:motivatedFlowState": {
+    "NAME": "Motivated Flow State",
+    "FLAVOR": "You have discovered how to get more Energy when using your ink frequently",
+    "DESCRIPTIONS": [
+      "Gives 1 Card whenever a flow state card is played.,"
+    ]
+  },
+  "${modID}:ultimateWeapon": {
+    "NAME": "Ultimate weapon",
+    "FLAVOR": "You have discovered how to get more Energy when using your ink frequently",
+    "DESCRIPTIONS": [
+      "Every 2 attacks that are played one random card costs 0 [E] for this turn."
+    ]
+  },
+  "${modID}:inkVial": {
+    "NAME": "Ultimate weapon",
+    "FLAVOR": "You have discovered how to get more Energy when using your ink frequently",
+    "DESCRIPTIONS": [
+      "Gain 1 ${modID}:Ink at the start of combat."
+    ]
+  }
+}

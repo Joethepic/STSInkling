@@ -1,0 +1,32 @@
+{
+  "${modID}:PowerID": {
+    "NAME": "Ultimate Power",
+    "DESCRIPTIONS": [
+      "You are Very Cool and Strong."
+    ]
+  },
+  "${modID}:Ink": {
+    "NAME": "Ink",
+    "DESCRIPTIONS": [
+      "Allows for certain types of attacks be used label with requires X Ink"
+    ]
+  },
+  "${modID}:inkRecoveryPower": {
+    "NAME": "Ink Recovery",
+    "DESCRIPTIONS": [
+      "Gives 1 ${modID}:Ink at the start of each turn"
+    ]
+  },
+  "${modID}:aggressiveMovement": {
+    "NAME": "Aggressive Movement",
+    "DESCRIPTIONS": [
+      "Whenever you play card that either adds or removes ${modID}:Ink, deal 2 damage to all enemies"
+    ]
+  },
+  "${modID}:evasiveMovement": {
+    "NAME": "Evasive Movement",
+    "DESCRIPTIONS": [
+      "Whenever you play card that either adds or removes ${modID}:Ink, deal 2 damage to all enemies"
+    ]
+  }
+}
