@@ -140,5 +140,10 @@
   {
     "NAME": "Unload",
     "DESCRIPTION": "Deals !D! damage on a random enemy ${modID}:Ink times. Spends all ${modID}:Ink."
+  },
+  "${modID}:bubbler":
+  {
+    "NAME": "Bubbler",
+    "DESCRIPTION": "Prevent the nexy time you would lose HP !M! times."
   }
 }

@@ -12,3 +12,14 @@
 - fixed splat bomb description not being effected by powers
 - Added Unload
 - Added Converting
+# v0.1.2
+### Cards
+- Unload no longer exhausts
+- Added bubbler
+# v0.1.3
+### Cards
+- fixed gather upgrade
+- fixed preparation upgrade
+- unload now cost 2 energy from 0
+- unload base damage now at 2 per ink and upgrade 3 per ink
+- unload changed from common to uncommon

@@ -34,18 +34,22 @@ public class gather extends BaseCard {
 
     @Override
     public void use(AbstractPlayer p, AbstractMonster abstractMonster) {
-        atb(new EasyXCostAction(this, (effect, params) -> {
-            for (int i = 0; i < effect + params[0]; i++) {
-                addToBot(new ApplyPowerAction(p, p, new inkPower(p, 1)));
-                addToTop(new GainEnergyAction(1));
-            }
-            return true;
-        }, magicNumber));
-        addToBot(new GainEnergyAction(1));
-    }
-    @Override
-    public void upgrade() {
-        upgradeMagicNumber(1);
+        if (upgraded){
+            atb(new EasyXCostAction(this, (effect, params) -> {
+                for (int i = 0; i < effect + params[0] + 1; i++) {
+                    addToBot(new ApplyPowerAction(p, p, new inkPower(p, 1)));
+                    addToTop(new GainEnergyAction(1));
+                }
+                return true;}, magicNumber));
+        }
+        else {
+            atb(new EasyXCostAction(this, (effect, params) -> {
+                for (int i = 0; i < effect + params[0]; i++) {
+                    addToBot(new ApplyPowerAction(p, p, new inkPower(p, 1)));
+                    addToTop(new GainEnergyAction(1));
+                }
+                return true;}, magicNumber));
+        }addToBot(new GainEnergyAction(1));
     }
 }
 
